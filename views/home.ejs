@@ -1,0 +1,12 @@
+<%- include("templates/header")-%>
+    <div class = "text-center">
+        <div class = "jumbotron">
+            <h1>Open Library Book Search</h1>
+            <form action = '/results' method= 'GET'>
+                <label for = "ISBN">ISBN: </label>
+                <input name = "ISBN" type = "text" value = "0451526538">
+                <button class = 'btn btn-dark'>Search</button>
+            </form>
+      </div>
+    </div>
+<%- include("templates/footer")-%>

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/enyaw15/cst336Excersize/issues"
   },
-  "homepage": "https://github.com/enyaw15/cst336Excersize#readme"
+  "homepage": "https://github.com/enyaw15/cst336Excersize#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
 }

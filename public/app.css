@@ -1,0 +1,19 @@
+body{
+    background-color: #111111;
+    color: #EEEEEE;
+}
+
+.jumbotron{
+    background-color: #333333;
+}
+.cover {
+    border :5px solid black;
+    border-radius: 10px;
+}
+
+p{
+    margin: 20px;
+    font-size:25px;
+    text-align: left;
+    color: cornsilk;
+}

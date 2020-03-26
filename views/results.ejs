@@ -1,0 +1,24 @@
+<%- include("templates/header")-%>
+    <div class = "text-center">
+        <div class='jumbotron'>
+            <h1>Open Library Book Search</h1>
+            <button class='btn btn-dark' onclick='location.href="/";'>Search Again</button>
+        </div>
+        
+        <div id = "book-display" class = "row">
+            <div class ="col-3">
+                <img class = "cover" width=100% src ="<%=data.cover.large%>"/>
+            </div>
+            <div class = "col-9">
+                <%=console.log(data)%>
+                <p>Title: <%=data.title%></p>
+                <p>Author: <%=data.authors[0].name%></p>
+                <p>Publish: <%=data.publish_date%></p>
+                <p>Publisher: <%=data.publishers[0].name%></p>
+                <p>ISBN: <%=data.identifiers.isbn_10%></p>
+                <p>Pages: <%=data.number_of_pages%></p>
+            </div>
+        </div>
+      </div>
+    </div>
+<%- include("templates/footer")-%>
