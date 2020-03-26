@@ -1,0 +1,19 @@
+{
+  "name": "excersize2",
+  "version": "1.0.0",
+  "description": "excersize for quering webservers through node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enyaw15/cst336Excersize.git"
+  },
+  "author": "Wayne Hayden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enyaw15/cst336Excersize/issues"
+  },
+  "homepage": "https://github.com/enyaw15/cst336Excersize#readme"
+}
